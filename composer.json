@@ -1,0 +1,24 @@
+{
+    "name": "olessavluk/yii2-settings",
+    "description": "Simple yii2 component for persistent settings storage",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/olessavluk/yii2-settings/issues",
+        "source": "https://github.com/olessavluk/yii2-settings"
+    },
+    "authors": [
+        {
+            "name": "Oles Savluk",
+            "email": "savluk.oles@gmail.com"
+        }
+    ],
+    "require": {
+      "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "olessavluk\\settings\\": ""
+      }
+    }
+}
